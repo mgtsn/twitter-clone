@@ -30,7 +30,7 @@
           <small><%= tweet.user.username %></small><br />
           <p><%= tweet.tweet %></p>
         </div>
-        <div class="level">
+        <nav class="level">
           <div class="level=left is-mobile">
             <%= link_to tweet, class: "level-item" do %>
               <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
@@ -42,7 +42,7 @@
               <span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
             <% end %>
           </div>
-        </div>
+        </nav>
       </div>
     </article>
   </div>
